@@ -1,3 +1,12 @@
+val name: String = "Rishi Raj"
+//val nameNullable: String? =null
+var greeting: String? =null
 fun main() {
-    println("Hello Kotlin")
+    if(null != greeting) {
+        print(greeting)
+        println(name)} else {
+        greeting = "Hello, "
+        print(greeting)
+        println(name)
+    }
 }
